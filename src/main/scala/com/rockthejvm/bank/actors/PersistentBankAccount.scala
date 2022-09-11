@@ -1,4 +1,5 @@
-package com.rockthejvm.actor
+package com.rockthejvm.bank.actor
+
 import akka.actor.typed.{ActorRef, Behavior}
 import akka.persistence.typed.PersistenceId
 import akka.persistence.typed.scaladsl.{Effect, EventSourcedBehavior}
